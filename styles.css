@@ -67,3 +67,10 @@ body {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
+
+@media (max-width: 720px) {
+  .card {
+    width: calc((100% / 3) - 20px);
+    height: calc((100% / 4) - 20px);
+  }
+}
